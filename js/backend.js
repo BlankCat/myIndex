@@ -198,7 +198,7 @@ function init() {
         scene.add( bird );
     }
     renderer = new THREE.CanvasRenderer();
-    renderer.setClearColor( 0xffffff );
+    renderer.setClearColor( 0x00ffff );
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT );
     document.addEventListener( 'mousemove', onDocumentMouseMove, false );
